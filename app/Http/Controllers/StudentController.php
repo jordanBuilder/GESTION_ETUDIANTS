@@ -29,7 +29,9 @@ class StudentController extends Controller
         return view('students.index', compact('students'));
     }
 
-    public function show(){
-        return view('students.show');
+    public function show(Request $request){
+        dd($request->ip());
+
+        //return view('students.show');
     }
 }

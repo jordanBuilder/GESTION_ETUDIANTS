@@ -1,4 +1,6 @@
-<div class="card" style="width: 18rem;">
+@extends('base')
+@section('content')
+<div class="card m-3" style="width: 18rem;">
   <img class="card-img-top" src="..." alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
@@ -6,3 +8,4 @@
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
+@endsection
